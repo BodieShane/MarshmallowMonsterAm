@@ -22,7 +22,7 @@ public class MonsterController
 	public void start()
 
 	{
-		yOutput.displayMonsterInfo(bodieMonster);
+		myOutput.deisplayMonsterInfo(bodieMonster.toString());
 	}
 }
 	
