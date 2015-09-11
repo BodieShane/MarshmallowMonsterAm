@@ -14,7 +14,7 @@ public class MonsterController
 		double hair = 1;
 		int nose = 3;
 		boolean hasBellyButton= true;
-		String name = "Not the same as mine";
+		String name = "The thing under your bed";
 		
 		myOutput = new MarshmallowOutput();
 		bodieMonster = new MarshmallowMonster( name,eyes,nose,hair,legs,hasBellyButton);
