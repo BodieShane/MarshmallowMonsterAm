@@ -28,7 +28,56 @@ public class MarshmallowMonster
 		this.monsterBellyButton = monsterBellyButton;
 	
 	}
-	
+	//Getter and Setters
+	public String getMonstername()
+	{
+		return getMonstername();
+		
+	}
+		
+		public void setMosterEyes(String MoserEyes)
+		{
+			this.monsterEyes= MoserEyes;
+		}
+		
+		public int getMosterEyes()
+		
+		{
+			return monsterEyes;
+		}
+		public int getmonsterNose()
+		{
+			return monsterNoses;
+		}
+		
+		public void setMonstername(String monsterName)
+		{
+			this.monsterName = monsterName;
+		}
+		
+		public double monsterHair()
+		{
+			return monsterHair;
+		}
+		
+		public double monsterLegs()
+		{
+			return monsterLegs;
+		}
+		
+		public boolean monsterbBellyButton()
+		{
+			return monsterbBellyButton;
+		}
+		
+		public int monsterNoses()
+		{
+			return monsterNoses;
+		}
+		public boolean monsterBellyButton()
+		{
+			return monsterBellyButton;
+		}
 	public String toString()
 	{
 		String monster = "This monster has " + monsterEyes + " eyes and It's name is " + monsterName + " I have " + monsterNoses + " noses's and" + monsterLegs + "Legs";
