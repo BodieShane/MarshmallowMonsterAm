@@ -23,8 +23,18 @@ public class MonsterController
 
 	{
 		myOutput.deisplayMonsterInfo(bodieMonster.toString());
+		askQuestions();
+		myOutput.deisplayMonsterInfo(" New Monste Info" + bodieMonster.toString());
+	}
+	
+	
+	private void askQuestions()
+	{
+		
 	}
 }
+
+
 	
 
 
