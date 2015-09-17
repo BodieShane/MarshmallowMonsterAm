@@ -34,11 +34,31 @@ public class MarshmallowMonster
 		return getMonstername();
 		
 	}
-		
-		public void setMosterEyes(String MoserEyes)
+		public void setmonsterBellyButton(boolean monsterBellyButton)
+		{
+			this.monsterBellyButton= monsterBellyButton;
+		}
+	
+		public void setmonsterHair(double monsterHair)
+		{
+			this.monsterHair= monsterHair;
+		}
+	
+		public void setmonsterLegs(double monsterLegs)
+		{
+			this.monsterLegs= monsterLegs;
+		}
+	
+		public void setmonsterNoses(int monsterNose)
+		{
+			this.monsterNoses= monsterNose;
+		}
+	
+		public void setMosterEyes(int MoserEyes)
 		{
 			this.monsterEyes= MoserEyes;
 		}
+		
 		
 		public int getMosterEyes()
 		

@@ -36,6 +36,9 @@ public class MonsterController
 		System.out.println(" Type in a better name for the monster");
 		String betterMonsterName = monsterScanner.next();
 		bodieMonster.setMonstername(betterMonsterName);
+		System.out.println(" Type in a different number of eyes for the monster");
+		int betterMonsterEyes = monsterScanner.nextInt();
+		bodieMonster. setMosterEyes(betterMonsterEyes);
 	}
 }
 
